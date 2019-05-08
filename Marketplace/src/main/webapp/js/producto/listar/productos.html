@@ -1,0 +1,24 @@
+<div id="tableProductos">
+    <table class="table table-striped">
+        <thead>
+        <th>Nombre</th>
+        <th>Marca</th>
+        <th>Precio Unitario</th>
+        <th>Stock</th>
+        <th>Acciones</th>
+        </thead> 
+        <tbody>
+            <tr ng-repeat="producto in productos">
+                <td>{{producto.nombreProducto}}</td>
+                <td>{{producto.marca}}</td>
+                <td>{{producto.stock}}</td>
+                <td>{{producto.precioUnitario}}</td>
+                <td> 
+                    <button class="btn btn-primary">Editar</button>
+                    <button class="btn btn-danger" ng-click="eliminar(producto.id)">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script src="./js/producto.js"></script>

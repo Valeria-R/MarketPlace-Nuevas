@@ -1,0 +1,12 @@
+edu\konrad\marketplace\logic\ProductoLogic.class
+edu\konrad\marketplace\persistence\ProveedorPersistence.class
+edu\konrad\marketplace\dto\ProductoProveedorDTO.class
+edu\konrad\marketplace\persistence\ProductoPersistence.class
+edu\konrad\marketplace\entities\ProveedorEntity.class
+edu\konrad\marketplace\entities\ProductoProveedorEntity.class
+edu\konrad\marketplace\dto\ProductoDTO.class
+edu\konrad\marketplace\entities\ProductoEntity.class
+edu\konrad\marketplace\resources\ApplicationConfig.class
+edu\konrad\marketplace\persistence\ProductoProveedorPersistence.class
+edu\konrad\marketplace\dto\ProveedorDTO.class
+edu\konrad\marketplace\resources\ProductoResource.class
